@@ -1,0 +1,118 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0;
+}
+
+.left {
+    display: grid;
+    grid-template-rows: 0.25fr 3fr 1fr;
+    height: 100%
+}
+
+.right {
+    background-color: #f3f3f3;
+}
+
+.pandm {
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.online {
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: flex-start;
+    color: #c6c6c6;
+}
+
+.img {
+    display: inline-block;
+    max-height: 50vmin;
+    border-radius: 20vmin;
+    border: 5px solid green;
+}
+
+.imgdiv {
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #66d189;
+    color: white;
+    font-weight: bold;
+    font-size: 6vmin;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5abd7c;
+    color: white;
+    font-weight: white;
+    font-size: 6vmin;
+}
+
+.margin {
+    height: 100vh;
+    margin-left: 5vmin;
+    margin-top: 3vmin;
+    display: grid;
+    grid-template-rows: 1fr 0.3fr 0.5fr 3.4fr 2fr;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    font-size: 13vmin;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.starimg {
+    display: inline-block;
+    min-height: 7vmin;
+}
+
+.healer {
+    display: flex;
+    align-items: center;
+    font-size: 5vmin;
+}
+
+.details {
+  line-height: 1.5;
+  border-left: 5px solid green;
+  padding-left: 4vmin;
+  padding-top: 1vmin;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 9vmin;
+  color: #c6c6c6;
+}
+
+.mins {
+    font-weight: bold;
+}
+
+.rate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 6vmin;
+}
